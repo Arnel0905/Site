@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device"-width, initial-scale="1.0">
+    <title>All Product - Dota Item Shop</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    
+    <div class="container">
+     <div class="navbar">
+    <div class="logo">
+        <img src="images/ez.png" width="125px">
+        </div>
+        <nav>
+        <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="products.html">Product</a></li>  
+            <li><a href="">About</a></li>  
+            <li><a href="">Contact</a></li>  
+            <li><a href="account.html">Account</a></li>  
+        </ul>
+        </nav>
+         <img src="images/icon.png" width="30px" height="30px">
+         <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    </div> 
+    <!----------------- single product details ----------------->
+    <div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+        <img src="images/product6.png" width="100%">
+        </div>
+        <div class="col-2">
+        <p>Home / Item</p>
+            <h1>Autographed Progenitor's Bane</h1>
+            <h2>₱20.00</h2>
+            <select> 
+                  <option>Autograph 1</option>
+                  <option>Autograph 2</option>
+                  <option>Autograph 3</option>
+                  <option>Autograph 4</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="=btn">Add to Cart</a>
+            <h3>Product Details</h3>
+            <p>Progenitor's Bane. Dota 2. Immortal Wearable. Used By: Mars.</p>
+        </div>
+        </div>
+    </div>
+    <!----- title ----->
+   <div class="small-container">
+    <div class="row row-2">
+       <h4>Related Product</h4>
+        <p>View More</p>
+       </div>
+    </div>
+   
+    <!-----products------>
+    <div class="small-container">
+       
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product1.png">
+                <h3>Span Of Sorrows</h3>
+                <div class="rating">
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <p>₱12.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product2.png">
+                <h3>Judgement of the Fallen</h3>
+                <div class="rating">
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <p>₱13.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product3.png">
+                <h3>Maraxiform's Fate</h3>
+                <div class="rating">
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart-o"></i>
+                </div>
+                <p>₱14.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product4.png">
+                <h3>Golden Profane Union</h3>
+                <div class="rating">
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-heart-o"></i>
+                    <i class="fa fa-heart-o"></i>
+                </div>
+                <p>₱70.00</p>
+            </div>
+        </div>
+        
+        
+    </div>
+<!------------ footer ----------->
+    <div class="footer">
+    <div class="container">
+        <div class="row">
+        <div class="footer-col-1">
+            <h3>Download Dota</h3>
+            <p>Download Steam</p>
+            </div>
+        </div>
+        </div>
+    </div>
+         <!---------------- js toggle menu ------------>
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight ="0px";
+        
+        function menutoggle(){
+            if(menuitems.style.maxHeight == "0px";)
+                {
+                    menuitems.style.maxHeight ="200px";
+                }
+            else 
+                {
+                    menuitems.style.maxHeight ="0px";
+                }
+        }
+        
+    </script>
+    
+    
+</body>
+</html>
